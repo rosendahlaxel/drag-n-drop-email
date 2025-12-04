@@ -1,0 +1,49 @@
+@import 'grapesjs/dist/css/grapes.min.css';
+
+:root {
+  --app-bg: #0f172a;
+  --panel-bg: #0b1224;
+  --border-subtle: #1f2a44;
+  --text-muted: #cbd5e1;
+  --brand: #5b8def;
+}
+
+body {
+  margin: 0;
+  font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  background: var(--app-bg);
+  color: #e2e8f0;
+}
+
+.gjs-one-bg {
+  background-color: var(--panel-bg);
+}
+
+.gjs-two-color {
+  color: #e2e8f0;
+}
+
+.gjs-three-bg {
+  background-color: #1e293b;
+}
+
+.gjs-four-color,
+.gjs-four-color-h:hover {
+  color: var(--brand);
+}
+
+.gjs-pn-panel {
+  border-color: var(--border-subtle);
+}
+
+.gjs-cv-canvas {
+  background-color: #f8fafc;
+}
+
+.gjs-block-label {
+  font-family: 'Inter', sans-serif;
+}
+
+#root {
+  min-height: 100vh;
+}

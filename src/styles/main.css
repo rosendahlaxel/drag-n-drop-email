@@ -1,0 +1,15 @@
+* {
+  box-sizing: border-box;
+}
+
+a {
+  color: inherit;
+}
+
+div {
+  outline: none;
+}
+
+button {
+  font: inherit;
+}
